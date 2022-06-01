@@ -1,0 +1,19 @@
+{
+  "name": "usbmanager",
+  "version": "1.0.0",
+  "description": "Network USB Manager for Debian device",
+  "main": "usbManager.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "checksum": "^0.1.1",
+    "fs": "0.0.1-security",
+    "node-cmd": "^3.0.0",
+	"gpio": "^0.2.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matteo Curci",
+  "license": "ISC"
+}
